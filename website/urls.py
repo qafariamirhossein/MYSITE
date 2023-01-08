@@ -3,8 +3,10 @@ from website.views import *
 from django.conf import settings
 from django.conf.urls.static import static
 
+app_name ='website'
+
 urlpatterns = [
-    path('about',about_view),
-    path('home',home_view),
-    path('contact',contact_view)
+    path('about',about_view,name='about'),
+    path('contact',contact_view,name='contact'),
+    path('',index_view,name='index')
 ]

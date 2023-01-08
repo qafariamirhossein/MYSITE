@@ -1,10 +1,11 @@
+{% load static %}
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="{% static 'img/fav' %}.png">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -20,15 +21,15 @@
 			<!--
 			CSS
 			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/jquery-ui.css">				
-			<link rel="stylesheet" href="css/nice-select.css">							
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">				
-			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="{% static 'css/linearicons' %}.css">
+			<link rel="stylesheet" href="{% static 'css/font-awesome.min' %}.css">
+			<link rel="stylesheet" href="{% static 'css/bootstrap' %}.css">
+			<link rel="stylesheet" href="{% static 'css/magnific-popup' %}.css">
+			<link rel="stylesheet" href="{% static 'css/jquery-ui' %}.css">				
+			<link rel="stylesheet" href="{% static 'css/nice-select' %}.css">							
+			<link rel="stylesheet" href="{% static 'css/animate.min' %}.css">
+			<link rel="stylesheet" href="{% static 'css/owl.carousel' %}.css">				
+			<link rel="stylesheet" href="{% static 'css/main' %}.css">
 		</head>
 		<body>	
 			<header id="header">
@@ -55,7 +56,7 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="{% static 'img/logo' %}.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
@@ -114,7 +115,7 @@
 									<div class="overlay overlay-bg"></div>
 								    <a href="#" target="_blank">
 								      <div class="thumb">
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/blog/cat-widget1.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="{% static 'img/blog/cat-widget1' %}.jpg" alt="">
 								  	  </div>
 								      <div class="content-details">
 								        <h4 class="content-title mx-auto text-uppercase">Social life</h4>
@@ -131,7 +132,7 @@
 									<div class="overlay overlay-bg"></div>
 								    <a href="#" target="_blank">
 								      <div class="thumb">
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/blog/cat-widget2.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="{% static 'img/blog/cat-widget2' %}.jpg" alt="">
 								  	  </div>
 								      <div class="content-details">
 								        <h4 class="content-title mx-auto text-uppercase">Politics</h4>
@@ -148,7 +149,7 @@
 									<div class="overlay overlay-bg"></div>
 								    <a href="#" target="_blank">
 								      <div class="thumb">
-								  		 <img class="content-image img-fluid d-block mx-auto" src="img/blog/cat-widget3.jpg" alt="">
+								  		 <img class="content-image img-fluid d-block mx-auto" src="{% static 'img/blog/cat-widget3' %}.jpg" alt="">
 								  	  </div>
 								      <div class="content-details">
 								        <h4 class="content-title mx-auto text-uppercase">Food</h4>
@@ -186,7 +187,7 @@
 								</div>
 								<div class="col-lg-9 col-md-9 ">
 									<div class="feature-img">
-										<img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
+										<img class="img-fluid" src="{% static 'img/blog/feature-img1' %}.jpg" alt="">
 									</div>
 									<a class="posts-title" href="blog-single.html"><h3>Astronomy Binoculars A Great Alternative</h3></a>
 									<p class="excert">
@@ -212,7 +213,7 @@
 								</div>
 								<div class="col-lg-9 col-md-9 ">
 									<div class="feature-img">
-										<img class="img-fluid" src="img/blog/feature-img2.jpg" alt="">
+										<img class="img-fluid" src="{% static 'img/blog/feature-img2' %}.jpg" alt="">
 									</div>
 									<a class="posts-title" href="blog-single.html"><h3>The Basics Of Buying A Telescope</h3></a>
 									<p class="excert">
@@ -238,7 +239,7 @@
 								</div>
 								<div class="col-lg-9 col-md-9">
 									<div class="feature-img">
-										<img class="img-fluid" src="img/blog/feature-img4.jpg" alt="">
+										<img class="img-fluid" src="{% static 'img/blog/feature-img4' %}.jpg" alt="">
 									</div>
 									<a class="posts-title" href="blog-single.html"><h3>The Night Sky</h3></a>
 									<p class="excert">
@@ -264,7 +265,7 @@
 								</div>
 								<div class="col-lg-9 col-md-9">
 									<div class="feature-img">
-										<img class="img-fluid" src="img/blog/feature-img5.jpg" alt="">
+										<img class="img-fluid" src="{% static 'img/blog/feature-img5' %}.jpg" alt="">
 									</div>
 									<a class="posts-title" href="blog-single.html"><h3>Telescopes 101</h3></a>
 									<p class="excert">
@@ -306,7 +307,7 @@
 			                        </form>
 								</div>
 								<div class="single-sidebar-widget user-info-widget">
-									<img src="img/blog/user-info.png" alt="">
+									<img src="{% static 'img/blog/user-info' %}.png" alt="">
 									<a href="#"><h4>Charlie Barber</h4></a>
 									<p>
 										Senior blog writer
@@ -326,7 +327,7 @@
 									<div class="popular-post-list">
 										<div class="single-post-list d-flex flex-row align-items-center">
 											<div class="thumb">
-												<img class="img-fluid" src="img/blog/pp1.jpg" alt="">
+												<img class="img-fluid" src="{% static 'img/blog/pp1' %}.jpg" alt="">
 											</div>
 											<div class="details">
 												<a href="blog-single.html"><h6>Space The Final Frontier</h6></a>
@@ -335,7 +336,7 @@
 										</div>
 										<div class="single-post-list d-flex flex-row align-items-center">
 											<div class="thumb">
-												<img class="img-fluid" src="img/blog/pp2.jpg" alt="">
+												<img class="img-fluid" src="{% static 'img/blog/pp2' %}.jpg" alt="">
 											</div>
 											<div class="details">
 												<a href="blog-single.html"><h6>The Amazing Hubble</h6></a>
@@ -344,7 +345,7 @@
 										</div>
 										<div class="single-post-list d-flex flex-row align-items-center">
 											<div class="thumb">
-												<img class="img-fluid" src="img/blog/pp3.jpg" alt="">
+												<img class="img-fluid" src="{% static 'img/blog/pp3' %}.jpg" alt="">
 											</div>
 											<div class="details">
 												<a href="blog-single.html"><h6>Astronomy Or Astrology</h6></a>
@@ -353,7 +354,7 @@
 										</div>
 										<div class="single-post-list d-flex flex-row align-items-center">
 											<div class="thumb">
-												<img class="img-fluid" src="img/blog/pp4.jpg" alt="">
+												<img class="img-fluid" src="{% static 'img/blog/pp4' %}.jpg" alt="">
 											</div>
 											<div class="details">
 												<a href="blog-single.html"><h6>Asteroids telescope</h6></a>
@@ -363,7 +364,7 @@
 									</div>
 								</div>
 								<div class="single-sidebar-widget ads-widget">
-									<a href="#"><img class="img-fluid" src="img/blog/ads-banner.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="{% static 'img/blog/ads-banner' %}.jpg" alt=""></a>
 								</div>
 								<div class="single-sidebar-widget post-category-widget">
 									<h4 class="category-title">Post Catgories</h4>
@@ -515,14 +516,14 @@
 							<div class="single-footer-widget mail-chimp">
 								<h6 class="mb-20">InstaFeed</h6>
 								<ul class="instafeed d-flex flex-wrap">
-									<li><img src="img/i1.jpg" alt=""></li>
-									<li><img src="img/i2.jpg" alt=""></li>
-									<li><img src="img/i3.jpg" alt=""></li>
-									<li><img src="img/i4.jpg" alt=""></li>
-									<li><img src="img/i5.jpg" alt=""></li>
-									<li><img src="img/i6.jpg" alt=""></li>
-									<li><img src="img/i7.jpg" alt=""></li>
-									<li><img src="img/i8.jpg" alt=""></li>
+									<li><img src="{% static 'img/i1' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i2' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i3' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i4' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i5' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i6' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i7' %}.jpg" alt=""></li>
+									<li><img src="{% static 'img/i8' %}.jpg" alt=""></li>
 								</ul>
 							</div>
 						</div>						
@@ -543,19 +544,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</footer>
 			<!-- End footer Area -->	
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="js/popper.min.js"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="{% static 'js/vendor/jquery-2.2.4.min'%}.js"></script>
+			<script src="{% static 'js/popper.min'%}.js"></script>
+			<script src="{% static 'js/vendor/bootstrap.min'%}.js"></script>			
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
- 			<script src="js/jquery-ui.js"></script>					
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>					
-			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+ 			<script src="{% static 'js/jquery-ui'%}.js"></script>					
+  			<script src="{% static 'js/easing.min'%}.js"></script>			
+			<script src="{% static 'js/hoverIntent'%}.js"></script>
+			<script src="{% static 'js/superfish.min'%}.js"></script>	
+			<script src="{% static 'js/jquery.ajaxchimp.min'%}.js"></script>
+			<script src="{% static 'js/jquery.magnific-popup.min'%}.js"></script>						
+			<script src="{% static 'js/jquery.nice-select.min'%}.js"></script>					
+			<script src="{% static 'js/owl.carousel.min'%}.js"></script>							
+			<script src="{% static 'js/mail-script'%}.js"></script>	
+			<script src="{% static 'js/main'%}.js"></script>	
 		</body>
 	</html>

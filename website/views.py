@@ -5,14 +5,14 @@ from django.conf.urls.static import static
 
 # Create your views here.
 
-def home_view(request):
+def contact_view(request):
     # return HttpResponse('<h1>This is --Home-- page</h1>')
-    return render(request,'templates/home.html')
+    return render(request,'website/contact.html')
 
 def about_view(request):
     # return HttpResponse('<h1>This is --About-- page</h1>')
-    return render(request,'templates/about.html')
+    return render(request,'website/about.html')
 
-def contact_view(request):
+def index_view(request):
     # return HttpResponse('<h1>This is --About-- page</h1>')
     return render(request,'website/index.html')
