@@ -1,0 +1,20 @@
+{% load static %}
+{% load humanize %}
+<div class="single-sidebar-widget popular-post-widget">
+    <h4 class="popular-title">Popular Posts</h4>
+    <div class="popular-post-list">
+
+        {% for post in posts %}
+        <div class="single-post-list d-flex flex-row align-items-center">
+            <div class="thumb">
+                <img class="img-fluid" src="{{post.image.url}}" alt="">
+            </div>
+            <div class="details">
+                <a href="{% url 'blog:single' pid=post.id %}"><h6>{{post.title}}</h6></a>
+                <p>{{post.published_date | naturaltime}}</p>
+            </div>
+        </div>		
+        {% endfor %}
+
+    </div>
+</div>
